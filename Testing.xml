@@ -88,10 +88,10 @@
     <![CDATA[
     Map returnMap = new HashMap();
 
-    String email = account.getStringAttribute("email");
-    if ( email != null ) {
-        returnMap.put("identityAttributeName", "email");
-        returnMap.put("identityAttributeValue", email);
+    String lanId = account.getStringAttribute("lanId");
+    if ( lanId != null ) {
+        returnMap.put("identityAttributeName", "lanId");
+        returnMap.put("identityAttributeValue", lanId);
     }
     return returnMap;
     ]]>
