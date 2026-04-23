@@ -87,7 +87,7 @@
   <Source>
     <![CDATA[
     Map returnMap = new HashMap();
-
+//this is updated for the fin app request
     String lanId = account.getStringAttribute("lanId");
     if ( lanId != null ) {
         returnMap.put("identityAttributeName", "lanId");
